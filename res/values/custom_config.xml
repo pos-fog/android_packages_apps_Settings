@@ -7,6 +7,12 @@
     <!-- Show battery cycle count -->
     <bool name="config_show_battery_cycle_count" translatable="false">true</bool>
 
+    <!-- Show battery Design Capacity -->
+    <bool name="config_show_battery_design_capacity">false</bool>
+
+    <!-- Show battery Maximum Capacity -->
+    <bool name="config_show_battery_maximum_capacity">false</bool>
+
     <!-- Indicates whether device has a front facing fingerprint sensor (not udfps). -->
     <bool name="config_is_front_facing_fps" translatable="false">false</bool>
 
