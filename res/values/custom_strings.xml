@@ -360,4 +360,9 @@
     <string name="network_traffic_units_kilobytes">Kilobytes per second (kB/s)</string>
     <string name="network_traffic_units_megabytes">Megabytes per second (MB/s)</string>
     <string name="network_traffic_units_auto">Automatic (kB/s or MB/s)</string>
+
+    <!-- Volume dialog position -->
+    <string name="volume_panel_category_title">Volume panel</string>
+    <string name="volume_panel_on_left_title">Left volume panel</string>
+    <string name="volume_panel_on_left_summary">Show volume panel on the left side of the screen</string>
 </resources>

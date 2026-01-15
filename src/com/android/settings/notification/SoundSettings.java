@@ -42,6 +42,7 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.sound.HandsFreeProfileOutputPreferenceController;
 import com.android.settings.sound.SliderVolumizer;
 import com.android.settings.sound.VolumeSliderPreference;
+import com.android.settings.sound.VolumeDialogPositionPreferenceController;
 import com.android.settings.widget.PreferenceCategoryController;
 import com.android.settings.widget.UpdatableListPreferenceDialogFragment;
 import com.android.settingslib.core.AbstractPreferenceController;
@@ -280,7 +281,10 @@ public class SoundSettings extends DashboardFragment implements OnActivityResult
                 new EmergencyTonePreferenceController(context, fragment, lifecycle);
         final VibrateIconPreferenceController vibrateIconPreferenceController =
                 new VibrateIconPreferenceController(context, fragment, lifecycle);
+        final VolumeDialogPositionPreferenceController volumeDialogPositionPreferenceController =
+                new VolumeDialogPositionPreferenceController(context);
 
+        controllers.add(volumeDialogPositionPreferenceController);
         controllers.add(dialPadTonePreferenceController);
         controllers.add(screenLockSoundPreferenceController);
         controllers.add(chargingSoundPreferenceController);
